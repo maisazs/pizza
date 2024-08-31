@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Pizza</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="login">
+            <h1 class="titulo">LOGIN</h1>
+            <form action="">
+                <input type="email" placeholder="E-mail*" required class="input inputgrande">
+                <input type="password" placeholder="Senha*" required class="input inputgrande">
+                <input type="button" value="LOGIN" class="btn" id="btn-login">
+            </form>
+            <a href="#">ESQUECI A SENHA</a>
+        </div>
+        <div id="cadastro">
+            <h1 class="titulo">Criar uma conta</h1>
+            <form action="">
+                <input type="text" placeholder="Nome*" required class="input inputgrande">
+                <input type="email" placeholder="E-mail*" required class="input inputgrande">
+                <input type="tel" placeholder="Telefone*" required class="input">
+                <input type="text" placeholder="Logradouro*" required class="input inputgrande">
+                <div id="inputpequeno">
+                    <input type="text" placeholder="Bairro*" required class="input bairro">
+                    <input type="text" placeholder="Número*" required class="input" id="numero">
+                </div>
+                <input type="text" placeholder="Complemento" class="input inputgrande">
+                <input type="text" placeholder="Referência" class="input inputgrande">
+                <input type="password" placeholder="Senha*" required class="input bairro">
+                <input type="button" value="CADASTRAR" class="btn" id="btn-cad">
+            </form>
+        </div>
+    </div>
+
+    <div id="laranja">
+        <div>
+            <img src="img/logo.png" alt="logo">
+            <p>Insira seus dados pessoais para usar nosso site de delivery!</p>
+            <button class="btn btn-laranja" id='lgn' onclick="slideRight()">LOGIN</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

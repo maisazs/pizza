@@ -1,0 +1,158 @@
+@import url(fonts.css);
+@import url(colors.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--white);
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    margin-inline: 20px;
+}
+
+#login {
+    width: 475px;
+    height: 436px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login a {
+    font-family: var(--inter);
+    color: var(--input-txt);
+    font-size: 12px;
+}
+
+#login a:hover {
+    text-decoration: underline;
+}
+
+#cadastro {
+    width: 519px;
+    height: 685px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#cadastro form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#inputpequeno {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 474px;
+}
+
+.bairro {
+ width: 253px;
+}
+
+#numero {
+    width: 141px;
+}
+
+.input {
+    background-color: var(--input-bg);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-family: var(--inter);
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+
+.inputgrande {
+    width: 445px;
+}
+
+.btn {
+    border: none;
+    font-family: var(--karantina);
+    color: var(--white);
+    background-color: var(--primary);
+    border-radius: 30px;
+    padding: 20px 50px;
+    font-size: 48px;
+    cursor: pointer;
+    margin-top: 60px;
+}
+
+.btn:hover {
+    background-color: var(--btn-hover);
+}
+
+#btn-login {
+    margin-bottom: -40px;
+}
+
+#btn-cad {
+    margin-left: 26%;
+}
+
+.titulo {
+    font-family: var(--karantina);
+    font-size: 100px;
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+#laranja {
+    background-color: var(--primary);
+    height: 100vh;
+    width: 50%;
+    border-radius: 0px 250px 250px 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: left 0.5s ease-in-out;
+    transition: .5s;
+}
+
+#laranja div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 449px;
+    width: 418px;
+    margin: auto;
+    margin-top: 215px;
+}
+
+#laranja div p {
+    font-family: var(--inter);
+    color: var(--white);
+    font-size: 18px;
+    text-align: center;
+}
+
+.btn-laranja {
+    border: 1px solid var(--white);
+}
